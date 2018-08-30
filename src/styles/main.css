@@ -1,5 +1,6 @@
 @import './reset.css';
 @import './livefeed.css';
+@import './keymoments.css';
 
 body {
   padding: 20px;
@@ -11,4 +12,8 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.wrapper {
+  margin: 0 auto;
 }

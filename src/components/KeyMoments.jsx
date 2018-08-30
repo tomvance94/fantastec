@@ -5,9 +5,9 @@ export default ({
   feed,
   activateKeyMoment
 }) => (
-  <div>
-    <h1>Key Moments</h1>
-    <ul>
+  <div className='KeyMoments'>
+    <h1 className='KeyMoments__title'>Key Moments</h1>
+    <ul className='KeyMoments__list'>
       {feed.map(event => {
         if (event.isKeyMoment) {
           return (
