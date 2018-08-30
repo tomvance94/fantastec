@@ -10,7 +10,7 @@ A React application built for the fantastec technical assesment.
 
 ### About Submission
 
-The application is built using React and follows a simple Container / Componet architecture, allowing all the state to remain at the top of the application.
+The application is built using React and follows a simple Container / Component architecture, allowing all the state to remain at the top of the application.
 
 I have mocked out the data that I would expect back from an API, this can be found in `./src/feed.js`.
 
