@@ -17,7 +17,7 @@ class CommentaryContainer extends React.PureComponent {
     return (
       <div>
         <LiveFeed feed={this.state.feed} />
-        {/* <KeyMoments feed={this.state.feed} /> */}
+        <KeyMoments feed={this.state.feed} />
       </div>
     )
   }

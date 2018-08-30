@@ -1,13 +1,15 @@
 import React from 'react'
+import KeyMoment from './KeyMoment'
 
 export default ({
-  feedItems
+  feed
 }) => (
   <div>
-    <h1>Live Commentary</h1>
+    <h1>Key Moments</h1>
     <ul>
-      {feedEvents.map(event => {
-        if (event.isKeyMoment) return <KeyMoment {...event} />
+      {feed.map(event => {
+        if (event.isKeyMoment) return <KeyMoment key={event.id} {...event} />
+        return null
       })}
     </ul>
   </div>

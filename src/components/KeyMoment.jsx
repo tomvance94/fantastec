@@ -2,9 +2,9 @@ import React from 'react'
 
 export default ({
   id,
-  comment
+  eventType
 }) => (
   <li>
-    {comment}
+    {eventType}
   </li>
 )
