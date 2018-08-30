@@ -1,0 +1,38 @@
+.KeyMoments__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.KeyMoments__list {
+  list-style-type: none;
+  padding: 10px;
+  margin-top: 10px;
+  background: #eee;
+}
+
+.KeyMoments__item { 
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.KeyMoments__item span {
+  background: #93032E;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: inline;
+  margin-right: 10px;
+}
+
+.KeyMoments__item p {
+  display: inline;
+}
+
+@media only screen and (min-width: 600px) {
+  .KeyMoments {
+    width: 50%;
+    float: right;
+  }
+}

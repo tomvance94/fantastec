@@ -2,31 +2,31 @@ export default {
   feed: [
     {
       id: 1,
-      interval: '00:10',
-      isKeyMoment: true,
-      eventType: 'Yellow Card',
-      comment: 'Dier goes into the book for what is the first yellow card of the game.'
+      interval: '00:00',
+      isKeyMoment: false,
+      eventType: null,
+      comment: 'Kick off.'
     },
     {
       id: 2,
-      interval: '00:12',
+      interval: '05:00',
       isKeyMoment: false,
       eventType: null,
       comment: 'Kane is trying his best to catch Salah but he just cant keep up with his pace. It\'ll be intersting to see how this game unfolds.' 
     },
     {
       id: 3,
-      interval: '00:10',
+      interval: '10:00',
       isKeyMoment: true,
-      eventType: 'Yellow Card',
-      comment: 'Dier goes into the book for what is the first yellow card of the game.'
+      eventType: 'Goal',
+      comment: 'GOAL! Harry Kane blasts one almost through the back of the net.'
     },
     {
       id: 4,
-      interval: '00:10',
+      interval: '80:00',
       isKeyMoment: true,
-      eventType: 'Yellow Card',
-      comment: 'Dier goes into the book for what is the first yellow card of the game.'
+      eventType: 'Penalty',
+      comment: 'Ooo, the referee has given a penatly to the away side here.'
     },
   ]
 }

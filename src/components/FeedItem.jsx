@@ -1,16 +1,19 @@
 import React from 'react'
 
+function buildClassString (id, activeKeyMomentId) {
+  let classes = ['LiveFeed__item', 'cf']
+  if (id === activeKeyMomentId) classes.push('active')
+
+  return classes.join(' ')
+}
+
 export default ({
   id,
   interval,
   activeKeyMomentId,
   comment
 }) => (
-  <li
-    className={
-      activeKeyMomentId === id ? 'active LiveFeed__item cf' : 'non-active LiveFeed__item cf'
-    }
-  >
+  <li className={buildClassString(id, activeKeyMomentId)}>
     <span>{interval}</span>
     <p>{comment}</p>
   </li>
