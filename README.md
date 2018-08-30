@@ -10,7 +10,7 @@ A React application built for the fantastec technical assesment.
 
 ### About Submission
 
-The application is built using React and follows a simple Container / Componet architecture, allowing all the state to remain at the top of the application.
+The application is built using React and follows a simple Container / Component architecture, allowing all the state to remain at the top of the application.
 
 Styling has been achived with simple CSS, for a project of this size for me this was a good fit. If the project was to scale I would look at alternatives such as styles-components or LESS / SASS.
 
