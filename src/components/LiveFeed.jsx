@@ -5,9 +5,9 @@ export default ({
   feed,
   activeKeyMomentId
 }) => (
-  <div>
-    <h1>Live Commentary</h1>
-    <ul>
+  <div className="LiveFeed">
+    <h1 className="LiveFeed__title">Live Commentary</h1>
+    <ul className="LiveFeed__list">
       {feed.map(event => (
         <FeedItem
           key={event.id}

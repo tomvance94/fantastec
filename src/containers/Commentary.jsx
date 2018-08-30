@@ -24,7 +24,7 @@ class CommentaryContainer extends React.PureComponent {
 
   render () {
     return (
-      <div>
+      <div className='wrapper'>
         <LiveFeed
           feed={this.state.feed}
           activeKeyMomentId={this.state.activeKeyMoment}

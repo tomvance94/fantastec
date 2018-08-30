@@ -1,0 +1,34 @@
+.LiveFeed__list {
+  margin-top: 10px;
+  background: #eee;
+  padding: 10px;
+  list-style-type: none;
+  max-width: 320px;
+}
+
+.LiveFeed__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.LiveFeed__item {
+  margin: 20px 0;
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}
+
+.LiveFeed__item span {
+  background: #93032E;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.LiveFeed__item p {
+  text-align: left
+}
