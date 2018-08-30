@@ -2,9 +2,10 @@ import React from 'react'
 
 export default ({
   id,
-  eventType
+  eventType,
+  onClick
 }) => (
-  <li>
+  <li onClick={onClick}>
     {eventType}
   </li>
 )

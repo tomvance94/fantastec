@@ -9,15 +9,30 @@ class CommentaryContainer extends React.PureComponent {
     super()
 
     this.state = {
-      feed: MockFeed.feed
+      feed: MockFeed.feed,
+      activeKeyMoment: null
     }
+
+    this.activateKeyMoment = this.activateKeyMoment.bind(this)
+  }
+
+  activateKeyMoment (eventId) {
+    this.setState({
+      activeKeyMoment: eventId
+    })
   }
 
   render () {
     return (
       <div>
-        <LiveFeed feed={this.state.feed} />
-        <KeyMoments feed={this.state.feed} />
+        <LiveFeed
+          feed={this.state.feed}
+          activeKeyMomentId={this.state.activeKeyMoment}
+        />
+        <KeyMoments
+          feed={this.state.feed}
+          activateKeyMoment={this.activateKeyMoment}
+        />
       </div>
     )
   }
